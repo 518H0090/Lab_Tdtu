@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn_dialog_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple dialog"
+    />
+
+    <Button
+        android:id="@+id/btn_single_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="single choice dialog"
+        />
+
+    <Button
+        android:id="@+id/btn_mutiple_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mutiple choice dialog"
+        />
+
+</LinearLayout>

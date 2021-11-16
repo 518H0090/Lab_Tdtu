@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:background="@color/cardview_dark_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="8"
+            android:background="#C3BEBE"
+            android:paddingLeft="10dp"
+            android:text="Layouts"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="User Name:"
+            android:layout_span="2"
+            android:textSize="20sp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            />
+
+        <EditText
+            android:layout_height="50dp"
+            android:layout_span="6"
+            android:background="@color/white"
+             />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="Password:"
+            android:layout_span="2"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            />
+
+        <EditText
+            android:layout_height="50dp"
+            android:layout_span="6"
+            android:background="@color/white"
+             />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:buttonTint="@android:color/white"
+            android:textColor="@color/white"
+            android:layout_height="50dp"
+            android:layout_span="8"
+            android:text="Remember Password"
+            android:layout_gravity="right"
+            android:paddingRight="20dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Log In"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="40dp"
+            />
+    </TableRow>
+
+</TableLayout>

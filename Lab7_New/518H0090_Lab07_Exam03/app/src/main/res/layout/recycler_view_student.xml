@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/studentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudentId : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/studentIdShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/studentName"
+        android:text="StudentIdShow"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentId"
+        android:text="StudentName : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/studentNameShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentIdShow"
+        android:layout_toRightOf="@+id/studentName"
+        android:text="StudentNameShow"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/studentClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentName"
+        android:text="StudentClass : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/studentClassShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentNameShow"
+        android:layout_toRightOf="@+id/studentClass"
+        android:text="StudentClassShow "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentClassShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Remove Student"
+        android:textAllCaps="false" />
+</RelativeLayout>

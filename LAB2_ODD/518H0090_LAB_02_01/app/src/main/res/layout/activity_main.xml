@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#4E4C4C"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layouts"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/custom_icon"
+        android:layout_marginBottom="10dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#00ACC1"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+    />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    >
+
+        <TextView
+            android:id="@+id/textUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/textUser"
+            android:backgroundTint="@color/white"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="20sp"
+            android:layout_below="@+id/textUser"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editUser"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/textPass"
+            android:backgroundTint="@color/white"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPass"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/white"
+            android:minHeight="48dp"
+            android:id="@+id/checkRemember"
+            android:text="Remember Password"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:id="@+id/btnClick"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#7C7777"
+        android:layout_marginBottom="40dp"
+    />
+
+
+
+
+
+</LinearLayout>
